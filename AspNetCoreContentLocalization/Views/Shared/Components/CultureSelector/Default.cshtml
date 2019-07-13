@@ -1,0 +1,11 @@
+﻿@* Copyright © 2019 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model IEnumerable<AspNetCoreContentLocalization.ViewModels.Shared.Culture>
+<div class="culsture-selector">
+  <select class="culsture-selector__select" id="cultureSelector" onchange="selectedCultureChanged();">
+    @foreach (var culture in this.Model)
+    {
+      <option value="@culture.Code" selected="@(culture.Code == System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName ? "selected" : null)">@culture.Name</option>
+    }
+  </select>
+</div>

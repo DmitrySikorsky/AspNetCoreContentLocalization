@@ -1,0 +1,89 @@
+﻿html, body {
+  font: normal 15px Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+input, select, button, label {
+  font: normal 15px Arial, sans-serif;
+}
+
+.input {
+}
+
+.select {
+}
+
+.button {
+}
+
+.field {
+}
+
+.field__input {
+  width: 20rem;
+}
+
+.buttons {
+}
+
+.buttons__button {
+  margin-right: 1rem;
+}
+
+.form {
+}
+
+.form__field {
+  margin-top: 1rem;
+}
+
+.form__buttons {
+  margin-top: 1rem;
+}
+
+.input-validation-error {
+  background: #ffff96;
+}
+
+.table {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.table__row{
+}
+
+.table__cell {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+.table__cell--heading {
+  font-weight: bold;
+}
+
+.content {
+}
+
+.content__table {
+  margin-top: 1rem;
+}
+
+.content__buttons {
+  margin-top: 1rem;
+}

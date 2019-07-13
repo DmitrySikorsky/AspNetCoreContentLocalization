@@ -1,0 +1,36 @@
+﻿@* Copyright © 2019 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model AspNetCoreContentLocalization.ViewModels.Books.AddOrEdit
+@inject IViewLocalizer Localizer
+<h1>@Localizer["Add/Edit Book"]</h1>
+<form class="form" method="post">
+  <div class="form__field field">
+    <label asp-for="Name"></label>
+    <br />
+    @*@foreach (var localization in this.Model.NameLocalizations)
+      {
+        <input name="name@(localization.CultureCode)" type="text" value="@(this.ViewContext.ViewData.ModelState["name" + localization.CultureCode]?.AttemptedValue ?? localization.Value)" /> <span>(@localization.CultureCode)</span>
+        <br />
+      }*@
+    <localizable-input asp-for="Name" asp-localizations="this.Model.NameLocalizations" />
+  </div>
+  <div class="form__field field">
+    <label asp-for="Description"></label>
+    <br />
+    <localizable-input asp-for="Description" asp-localizations="this.Model.DescriptionLocalizations" />
+  </div>
+  <div class="form__field field">
+    <label asp-for="Author"></label>
+    <br />
+    <localizable-input asp-for="Author" asp-localizations="this.Model.AuthorLocalizations" />
+  </div>
+  <div class="form__field field">
+    <label asp-for="Year"></label>
+    <br />
+    <input class="field__input" asp-for="Year" type="number" />
+  </div>
+  <div class="form__buttons buttons">
+    <button class="buttons__button button" type="submit">@Localizer["Save"]</button>
+    <a href="/">@Localizer["Cancel"]</a>
+  </div>
+</form>
