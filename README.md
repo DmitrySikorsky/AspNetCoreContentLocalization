@@ -5,11 +5,11 @@ post on the [Dmitry Sikorsky’s blog](http://sikorsky.pro/en/blog).
 It demonstrates how to store, display, and edit localizable and multilingual user content.
 
 The result looks like this:
-![ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, English](http://sikorsky.pro/images/github/aspnet-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content/result_en.png)
-*ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, English*
+![ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Book List](http://sikorsky.pro/images/github/aspnet-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content/result_1.png)
+*ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Book List*
 
-![ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Ukrainian](http://sikorsky.pro/images/github/aspnet-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content/result_uk.png)
-*ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Ukrainian*
+![ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Add/Edit Book](http://sikorsky.pro/images/github/aspnet-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content/result_2.png)
+*ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content, Add/Edit Book*
 
 ## Using the Application
 
