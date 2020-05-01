@@ -1,7 +1,7 @@
 # ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content
 This is a demo web application for the
-ì[ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content](https://medium.com/@dmitry.a.sikorsky/asp-net-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content-9e5df1ae1b94)î
-post on the [Dmitry Sikorskyís blog](https://medium.com/@dmitry.a.sikorsky).
+‚Äú[ASP.NET Core: How to Store, Display, and Edit Localizable and Multilingual User Content](https://medium.com/@dmitrysikorsky/asp-net-core-how-to-store-display-and-edit-localizable-and-multilingual-user-content-9e5df1ae1b94)‚Äù
+post on the [Dmitry Sikorsky‚Äôs blog](https://medium.com/@dmitrysikorsky).
 It demonstrates how to store, display, and edit localizable and multilingual user content.
 
 The result looks like this:
